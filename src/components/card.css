@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #050505;
+}
+.container{
+    width: 520px;
+    margin: auto;
+}
+.searchInput{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    outline: none;
+    background-color: #131313;
+    border: none;
+    font-size: 18px;
+    color: rgb(142, 142, 142);
+    box-shadow: 0 0 10px #1a1a1a;
+}
+.coinParent{
+    padding: 10px 15px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 20px;
+    color: #fff;
+}
+.coinParent div{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin: 5px;
+    width: 15%;
+}
+.price{
+    font-size: 1rem;
+}
+.red{
+    color: rgb(243, 51, 51);
+    margin-left: 10px;
+    background-color: rgb(31, 15, 15);
+    padding: 3px 8px;
+    text-shadow: 0 0 3px #fc0000;
+    border-radius: 20px;
+}
+.green{
+    color: rgb(82, 163, 82);
+    margin-left: 10px;
+    background-color: rgb(18, 27, 18);
+    text-shadow: 0 0 3px #00fc47;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+.bgRed{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(11,6,6,1) 50%, rgba(70,36,36,1) 100%);
+}
+.bgGreen{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,11,7,1) 50%, rgba(36,70,58,1) 100%);
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2d2d2d;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(19, 19, 19);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(23, 23, 23);
+  }
+@media screen and (max-width : 550px) {
+    .container{
+        width: 100%;
+    }
+}
